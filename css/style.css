@@ -864,6 +864,9 @@ span {
   }
 }
 @media (max-width: 1100px) {
+  .header {
+    width: 100vw;
+  }
   html {
     font-size: 55%;
   }
@@ -888,7 +891,7 @@ span {
 @media (max-width: 768px) {
   .header {
     background: var(--bgColor);
-    max-width: 768px;
+    width: 100vw;
   }
   #menu-icon {
     display: block;
@@ -951,10 +954,6 @@ span {
   }
 }
 @media (max-width: 520px) {
-  .header {
-    background: var(--bgColor);
-    max-width: 520px;
-  }
   html {
     font-size: 50%;
   }
@@ -986,10 +985,6 @@ span {
   }
 }
 @media (max-width: 462px) {
-  .header {
-    background: var(--bgColor);
-    max-width: 462px;
-  }
   .home-content h1 {
     font-size: 5.2rem;
   }
@@ -1011,10 +1006,6 @@ span {
   }
 }
 @media (max-width: 371px) {
-  .header {
-    background: var(--bgColor);
-    max-width: 371px;
-  }
   .home {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
